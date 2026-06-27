@@ -1,0 +1,40 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+.celda {
+    box-sizing: border-box;
+    border: 1px solid #f0f0f0; 
+}
+
+.black {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.azul {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-color: skyblue;
+    color: white;
+}
+
+.rojo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: rgb(192, 40, 40);
+    color: white;
+}
